@@ -124,3 +124,128 @@ h1{
     letter-spacing: 0.05em;
     color: #fff;
 }
+.special{
+    background: #efefef;
+    padding-top: 80px;
+}
+.special>h2{
+    font-weight: 700px;
+    font-size: 24px;
+    color: #000;
+}
+.chair{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 38px;
+}
+.chair-item{
+    background: #fff;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 30px;
+    padding-left: 30px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.chair-item>h3{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 141%;
+    text-align: center;
+    color: #333;
+    max-width: 195px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.chair-item>span{
+    font-weight: 500;
+    font-size: 21px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    color: #000;
+    margin-bottom: 20px;
+}
+.chair-item>button{
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    color: #fff;
+    padding:9px 40px 9px 40px ;
+    background: #66c05d;
+    border-radius: 30px;
+}
+.bonus{
+    background: #efefef;
+    padding-top: 100px;
+    padding-bottom: 132px;
+}
+.bonus-box{
+    display: flex;
+    justify-content: space-between;
+}
+.bonus-item1{
+    width: 540px;
+    background: #66c05d;
+    padding: 35px 45px 35px 40px;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+.text>h3{
+    font-weight: 700;
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 25px;
+
+}
+.text>p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 141%;
+    color: #fff;
+    max-width: 230px;
+    margin-bottom: 25px;
+}
+.text>input{
+    border: none;
+    width: 225px;
+    height: 35px;
+    border-radius: 30px;
+    padding-left: 25px;
+}
+.text>input::placeholder{
+    font-weight: 400;
+    font-size: 14px;
+    color: #c4c4c4;
+}
+.bonus-item2{
+    width: 540px;
+    background: #66c05d;
+    padding: 35px 45px 35px 40px;
+    box-sizing: border-box;
+}
+.bonus-item2>h3{
+    font-weight: 700;
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 25px;
+}
+.bonus-item2>p{
+font-weight: 400;
+font-size: 14px;
+line-height: 141%;
+color: #fff;
+max-width: 141px;
+margin-bottom: 25px;
+}
+.bonus-item2>button{
+    border: 2px solid #fff;
+    border-radius: 30px;
+    background: #66c05d;
+    padding: 9px 28px 9px 28px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+}
