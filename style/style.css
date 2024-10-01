@@ -91,3 +91,36 @@ color: #000;
     font-size: 16px;
     color: #000;
 }
+.banner{
+    background: url("../img/banner.png");
+    background-repeat: no-repeat;
+    background-size: cover ;
+    padding-top: 192px;
+    padding-bottom: 192px;
+
+}
+h1{
+    font-weight: 700;
+    font-size: 48px;
+    color: #fff;
+    margin-bottom: 50px;
+}
+.banner-text{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 143%;
+    color: #fff;
+    max-width: 308px;
+    margin-bottom: 50px;
+}
+.banner-btn{
+    border: 2px solid #fff;
+    border-radius: 40px;
+    width: 170px;
+    height: 40px;
+    background: #66c05d;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.05em;
+    color: #fff;
+}
